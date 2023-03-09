@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./static/css/main.css">
+    <script src="./js/script.js" defer></script>
+    <script src="./js/cred.js"></script>
+</head>
+
+<body>
+    <!-- main.container>section.gallery>button+figures.gallery__item--1#fig*6>img -->
+    <main class="container">
+        <h2>Click on the posters for some music!</h2>
+        <button onclick="stopSong()">Stop</button>
+        <section class="gallery">
+            
+            <figure class="gallery__item--1" id="fig1" onclick="clickedEvent(this.id)">
+                <img src="./static/images/alien.jpg" alt="Blowin in the wind - Bob Dylan" class="gallery__img">
+            </figure>
+            <figure class="gallery__item--2" id="fig2" onclick="clickedEvent(this.id)">
+                <img src="./static/images/wow.jpg" alt="Ooh La La - Faces" class="gallery__img">
+            </figure>
+            <figure class="gallery__item--3" id="fig3" onclick="clickedEvent(this.id)">
+                <img src="./static/images/inception.jpg" alt="Harvest Moon - Neil Young" class="gallery__img">
+            </figure>
+            <figure class="gallery__item--4" id="fig4" onclick="clickedEvent(this.id)">
+                <img src="./static/images/joker.jpg" alt="Fame - David Bowie" class="gallery__img">
+            </figure>
+            <figure class="gallery__item--5" id="fig5" onclick="clickedEvent(this.id)">
+                <img src="./static/images/o brother.jpg" alt="Never gonna give you up - Rick Astley" class="gallery__img">
+            </figure>
+            <figure class="gallery__item--6" id="fig6" onclick="clickedEvent(this.id)">
+                <img src="./static/images/step_bros.jpg" alt="Big Poppa - The Notorious B.I.G" class="gallery__img">
+            </figure>
+        </section>
+    </main>
+
+</body>
+
+</html>
